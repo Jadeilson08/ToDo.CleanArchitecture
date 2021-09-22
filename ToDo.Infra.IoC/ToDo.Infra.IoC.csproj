@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.Application\ToDo.Application.csproj" />
+    <ProjectReference Include="..\ToDo.Domain\ToDo.Domain.csproj" />
+    <ProjectReference Include="..\ToDo.Infra.Data\ToDo.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
